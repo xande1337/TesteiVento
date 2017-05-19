@@ -51,7 +51,7 @@
 
                 <ul class="nav side-menu">
                     <li>
-                        <a>
+                    <!--<a>
                             <i class="fa fa-list"></i>
                             {{ __('views.backend.section.navigation.menu_2') }}
                             <span class="fa fa-chevron-down"></span>
@@ -67,7 +67,7 @@
                                     {{ __('views.backend.section.navigation.menu_4') }}
                                 </a>
                             </li>
-                        </ul>
+                        </ul>-->
                     </li>
                 </ul>
             </div>

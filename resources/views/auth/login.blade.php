@@ -46,6 +46,8 @@
 
                         <div class="clearfix"></div>
 
+
+                    <!--   LOGIN COM REDES SOCIAIS!!!!!!!!! DESATIVADO
                         <div class="separator">
                             <span>{{ __('views.auth.login.message_0') }}</span>
                             <div>
@@ -63,6 +65,8 @@
                                 </a>
                             </div>
                         </div>
+
+                    -->
 
                         @if(config('auth.users.registration'))
                             <div class="separator">
