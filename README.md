@@ -1,4 +1,4 @@
-<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
+﻿<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">
 <a href="https://travis-ci.org/Labs64/laravel-boilerplate"><img src="https://travis-ci.org/Labs64/laravel-boilerplate.svg" alt="Build Status"></a>
@@ -66,7 +66,7 @@ To be able to run Laravel Boilerplate you have to meet the following requirement
 2. Install Node.js using detailed installation instructions [here](https://nodejs.org/en/download/package-manager/)
 3. Clone repository
 ```
-$ git clone https://github.com/Labs64/laravel-boilerplate.git
+$ https://github.com/xande1337/TesteiVento
 ```
 4. Change into the working directory
 ```
@@ -119,7 +119,7 @@ To be able to run Laravel Boilerplate you have to meet the following requirement
 
 Clone repository
 ```
-$ git clone https://github.com/Labs64/laravel-boilerplate.git
+$ 
 ```
 
 To start environment
@@ -129,33 +129,6 @@ $ docker-compose up -d
 
 Now you can browse the site [http://localhost:80](https://photolancer.zone)  🙌
 
-To stop environment
-```
-$ docker-compose down
-```
-
-### Useful commands
-
-List docker processes
-```
-$ docker ps
-```
-
-List docker processes
-```
-$ docker exec -it <CONTAINER ID|CONTAINER NAME> bash
-```
-
-Verify available databases
-```
-# mysql -u root -p laravel_boilerplate
-mysql> show databases;
-```
-
-Remove all docker-compose images
-```
-$ docker-compose rm -v
-```
 
 ## How to contribute
 
