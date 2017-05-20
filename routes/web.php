@@ -59,6 +59,9 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'namespace' => 'Admin', 'mi
     Route::get('users/{user}/edit', 'UserController@edit')->name('users.edit');
     Route::put('users/{user}', 'UserController@update')->name('users.update');
     Route::delete('users/{user}', 'UserController@destroy')->name('users.destroy');
+
+    //Atividades
+    Route::get('Atividades', 'AtividadesController@index')->name('atividades');
 });
 
 Route::get('/', function () {

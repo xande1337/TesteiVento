@@ -1,4 +1,4 @@
-<div class="col-md-3 left_col">
+<div class="col-md-3 left_col menu_fixed">
     <div class="left_col scroll-view">
         <div class="navbar nav_title" style="border: 0;">
             <a href="{{ route('admin.dashboard') }}" class="site_title">
@@ -23,7 +23,7 @@
         <br/>
 
         <!-- sidebar menu -->
-        <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+        <div id="sidebar-menu" class="main_menu_side  hidden-print main_menu">
             <div class="menu_section">
                 <h3>{{ __('views.backend.section.navigation.sub_header_0') }}</h3>
                 <ul class="nav side-menu">
@@ -44,8 +44,15 @@
                             {{ __('views.backend.section.navigation.menu_1') }}
                         </a>
                     </li>
+                    <li>
+                        <a href="{{ route('admin.atividades') }}">
+                            <i class="fa fa-calendar" aria-hidden="true"></i>
+                            Atividades
+                        </a>
+                    </li>
                 </ul>
             </div>
+
             <div class="menu_section">
                 <h3>{{ __('views.backend.section.navigation.sub_header_2') }}</h3>
 
