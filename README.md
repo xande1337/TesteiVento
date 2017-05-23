@@ -70,7 +70,7 @@ $ https://github.com/xande1337/TesteiVento
 ```
 4. Change into the working directory
 ```
-$ cd laravel-boilerplate
+$ cd "pasta do projeto"
 ```
 5. Install dependencies
 ```
@@ -84,6 +84,7 @@ $ php artisan key:generate
 ```
 8. Execute following commands
 ```
+$ npm install -g bower
 $ bower install
 $ npm run dev
 ```
@@ -97,10 +98,10 @@ If you get an error like a `PDOException` try editing your `.env` file and chang
 
 To start the PHP built-in server
 ```
-$ php -S localhost:8080 -t public/
+$ php artisan serve
 ```
 
-Now you can browse the site [http://localhost:8080](https://photolancer.zone)  🙌
+Now you can browse the site http://localhost:8080
 
 ## Docker
 
@@ -119,7 +120,7 @@ To be able to run Laravel Boilerplate you have to meet the following requirement
 
 Clone repository
 ```
-$ 
+$
 ```
 
 To start environment
@@ -127,7 +128,7 @@ To start environment
 $ docker-compose up -d
 ```
 
-Now you can browse the site [http://localhost:80](https://photolancer.zone)  🙌
+Now you can browse the site [http://localhost:80] 🙌
 
 
 ## How to contribute
